@@ -1,4 +1,4 @@
-import { schema, Typesaurus } from "typesaurus";
+import { schema, Typesaurus } from "@tixae-labs/typesaurus";
 
 export const db = schema(($) => ({
   users: $.collection<User>().sub({

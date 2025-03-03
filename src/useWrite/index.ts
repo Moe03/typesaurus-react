@@ -1,4 +1,4 @@
-import type { TypesaurusCore } from "typesaurus";
+import type { TypesaurusCore } from "@tixae-labs/typesaurus";
 import { useState, useCallback } from "../adapter/index.js";
 import type { TypesaurusReact } from "../types.js";
 
@@ -40,7 +40,7 @@ export function useWrite<T>(
         const executeWrite = async () => {
           try {
             let result;
-            
+            console.log(`input doc ref? `, docRef);
             if (typeof docRef === 'object' && docRef !== null) {
               if ('set' in docRef && typeof docRef.set === 'function') {
                 result = await docRef.set(data);

@@ -1,4 +1,4 @@
-import type { TypesaurusCore } from "typesaurus";
+import type { TypesaurusCore } from "@tixae-labs/typesaurus";
 import { useEffect, useState, useMemo } from "../adapter/index.js";
 import type { TypesaurusReact } from "../types.js";
 

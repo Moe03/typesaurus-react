@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@tixae-labs/typesaurus':
+        specifier: ^1.0.1
+        version: 1.0.1
     devDependencies:
       '@babel/cli':
         specifier: ^7.23.4
@@ -743,6 +747,9 @@ packages:
 
   '@nicolo-ribaudo/chokidar-2@2.1.8-no-fsevents.3':
     resolution: {integrity: sha512-s88O1aVtXftvp5bCPB7WnmXc5IwOZZ7YPuwNPt+GtOOXpPvad1LfbmjYv+qII7zP6RU2QGnqve27dnLycEnyEQ==}
+
+  '@tixae-labs/typesaurus@1.0.1':
+    resolution: {integrity: sha512-pniIcLvCpB5TjAuvM58B0FZuOAH9/t2ggBrQt9CKmYutzeMU+eHBUDra1BrQrn4WB514UF6zURFDNeZ1UkDYyw==}
 
   '@types/node@20.17.22':
     resolution: {integrity: sha512-9RV2zST+0s3EhfrMZIhrz2bhuhBwxgkbHEwP2gtGWPjBzVQjifMzJ9exw7aDZhR1wbpj8zBrfp3bo8oJcGiUUw==}
@@ -1876,6 +1883,8 @@ snapshots:
 
   '@nicolo-ribaudo/chokidar-2@2.1.8-no-fsevents.3':
     optional: true
+
+  '@tixae-labs/typesaurus@1.0.1': {}
 
   '@types/node@20.17.22':
     dependencies:

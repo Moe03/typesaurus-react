@@ -1,4 +1,4 @@
-import type { TypesaurusUtils } from "typesaurus";
+import type { TypesaurusUtils } from "@tixae-labs/typesaurus";
 
 export namespace TypesaurusReact {
   export type HookInput<Type> = Type | TypesaurusUtils.Falsy;
