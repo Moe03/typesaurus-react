@@ -31,7 +31,6 @@ build-mts:
 
 publish: build
 	@cd lib/reactopod && npm publish --access public
-	@cd lib/preactopod && npm publish --access public
 
 publish-next: build
 	@cd lib/reactopod && npm publish --access public --tag next
