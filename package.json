@@ -1,7 +1,7 @@
 {
-  "name": "@typesaurus/react",
-  "version": "6.0.1",
-  "description": "React Hooks for Typesaurus, type-safe Firestore ODM",
+  "name": "@tixae-labs/typesaurus-react",
+  "version": "1.0.0",
+  "description": "React Hooks for Typesaurus, type-safe Firestore ODM, MAINTAINED BY TIXAE LABS",
   "keywords": [
     "React",
     "React Hooks",
@@ -44,10 +44,20 @@
         "types": "./useLazyRead/index.d.mts",
         "default": "./useLazyRead/index.mjs"
       }
+    },
+    "./useWrite": {
+      "require": {
+        "types": "./useWrite/index.d.ts",
+        "default": "./useWrite/index.js"
+      },
+      "import": {
+        "types": "./useWrite/index.d.mts",
+        "default": "./useWrite/index.mjs"
+      }
     }
   },
-  "repository": "https://github.com/kossnocorp/typesaurus-react",
-  "author": "Sasha Koss <koss@nocorp.me>",
+  "repository": "https://github.com/Moe03/typesaurus-react",
+  "author": "Moe ayman <moeaymendev@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.23.4",
@@ -67,5 +77,8 @@
   },
   "peerDependencies": {
     "typesaurus": "^10.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
